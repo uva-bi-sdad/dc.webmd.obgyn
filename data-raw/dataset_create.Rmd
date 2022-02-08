@@ -5,23 +5,21 @@ date: "11/18/2021"
 output: html_document
 dataset:
   citation:
-      title: "NEW Test dataset"
+      title: "Social Data Commons: Obgyn Access VA"
       subtitle: ""
-      dsDescriptionValue: "Virginia Standards of Learning Test Scores collected by the Virginia Department of Education (VDOE)"
+      dsDescriptionValue: "Catchment areas for ObGyn in VA at the Census Tract level"
       subject: "Social Sciences (Ex: Education, Politics, Sociology, Economics, Psychology)"
       productionDate: "2021-11-17"
-      timePeriodCoveredStart: "2015-01-01"
-      timePeriodCoveredEnd: "2021-01-01"
+      timePeriodCoveredStart: "2021-01-01"
+      timePeriodCoveredEnd: "2021-12-31"
       dataSources:
+        - "WebMD"
         - "ACS"
-        - "County Health Rankings"
       author:
         - authorName: "Schroeder, Aaron"
           authorAffiliation: "Univeristy of Virginia"
-        - authorName: "Charankevich, Hanna"
+        - authorName: "Montalvo, Cesar"
           authorAffiliation: "Univeristy of Virginia"
-        - authorName: "Niagra, Bob"
-          authorAffiliation: "Univeristy of Waterloo"
       datasetContact:
         - datasetContactEmail: "ads7fg@virginia.edu"
           datasetContactName: "Schroeder, Aaron"
@@ -32,6 +30,8 @@ dataset:
     geographicUnit:
       - "State Health District"
       - "County"
+      - "Census Tract"
+      
 ---
 
 ```{r setup, include=FALSE}
