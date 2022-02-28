@@ -5,19 +5,17 @@ date: "11/18/2021"
 output: html_document
 dataset:
   citation:
-      title: "Social Data Commons: Obgyn Access VA"
+      title: "Social Data Commons: Obstetrics and Gynecologists (ObGyn) Access Scores"
       subtitle: ""
-      dsDescriptionValue: "Catchment areas for ObGyn in VA at the Census Tract level"
+      dsDescriptionValue: "Access Scores for Obstetrics and Gynecologists (ObGyn) located in the National Capital Region NCR given by the Floating Catchment Areas"
       subject: "Social Sciences (Ex: Education, Politics, Sociology, Economics, Psychology)"
-      productionDate: "2021-11-17"
+      productionDate: "2022-02-17"
       timePeriodCoveredStart: "2021-01-01"
       timePeriodCoveredEnd: "2021-12-31"
       dataSources:
         - "WebMD"
         - "ACS"
       author:
-        - authorName: "Schroeder, Aaron"
-          authorAffiliation: "Univeristy of Virginia"
         - authorName: "Montalvo, Cesar"
           authorAffiliation: "Univeristy of Virginia"
       datasetContact:
@@ -28,9 +26,9 @@ dataset:
       country: "United States"
       state: "Virginia"
     geographicUnit:
-      - "State Health District"
       - "County"
       - "Census Tract"
+      - "Block group"
       
 ---
 
