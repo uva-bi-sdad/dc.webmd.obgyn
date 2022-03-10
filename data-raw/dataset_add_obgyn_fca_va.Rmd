@@ -17,14 +17,14 @@ dataset_doi <- readLines(here::here("data/dataset_doi"))[1]
 
 ## Code you used to create dataset - LIST BELOW
 
-dc_health_behavior_diet.dmv_cttrbg_webmd_2021_acccess_scores_obgyn: prepare_data.Rmd and catchment_scores.Rmd
+dc_health_behavior_diet.dmv_cttrbg_webmd_2021_acccess_scores_obgyn: prepare_data.Rmd and catchment_scores.Rmd for VA
 
 
 ```{r data}
 
 # Ex database_table_name: "va_hd_vdoe_2019_2021_3rd_grade_mean_median_read_score"
 
-table_names = c("dmv_cttrbg_webmd_2021_acccess_scores_obgyn") 
+table_names = c("va_hdcttrbg_webmd_2021_access_scores_obgyn") 
     
 con <- get_db_conn()
 
@@ -45,7 +45,7 @@ if (length(table_names) > 1)
 
 DBI::dbDisconnect(con)
 
-all_geos_file_name <- "dmv_cttrbg_webmd_2021_acccess_scores_obgyn"  #Ex: "va_hdcttr_2021_2021_obgyn_acccess_scores_near10"
+all_geos_file_name <- "va_hdcttrbg_webmd_2021_access_scores_obgyn"  #Ex: "va_hdcttr_2021_2021_obgyn_acccess_scores_near10"
 assign(all_geos_file_name, all_geos_dat)
 ```
 
