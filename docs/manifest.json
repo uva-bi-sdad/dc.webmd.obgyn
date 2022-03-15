@@ -1,0 +1,20 @@
+{
+  "name": "dc.webmd.obgyn",
+  "data": [
+    {
+      "name": "acccess_scores_obgyn",
+      "variables": ["obgyn_pop_cnt", "obgyn_cnt", "obgyn_near_10_mean", "obgyn_near_10_median", "obgyn_2sfca", "obgyn_e2sfca", "obgyn_3sfca"],
+      "file": "dmv_cttrbg_webmd_2021_acccess_scores_obgyn.csv.xz",
+      "size": 191292,
+      "md5": "db30acf4caa08a04b875207813e30334"
+    },
+    {
+      "name": "obgyn_acccess_scores_near10",
+      "variables": "obgyn_near10",
+      "file": "va_hdcttr_2021_2021_obgyn_acccess_scores_near10.csv.xz",
+      "size": 13128,
+      "md5": "0efdc136ec1ff3ebd49ad7cf08a3ad85"
+    }
+  ],
+  "distributions": []
+}

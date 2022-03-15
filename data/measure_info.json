@@ -1,8 +1,8 @@
 {
-  "obgyn_access_scores:obgyn_cnt": {
+  "acccess_scores_obgyn:obgyn_cnt": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
-    "full_name": "obgyn_access_scores:obgyn_cnt",
+    "full_name": "acccess_scores_obgyn:obgyn_cnt",
     "measure": "obgyn_cnt",
     "type": "count",
     "short_name": "OBGYN care access (count)",
@@ -18,11 +18,11 @@
       }
     ]
   },
-  "obgyn_access_scores:obgyn_e2sfca": {
+  "acccess_scores_obgyn:obgyn_2sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
-    "full_name": "obgyn_access_scores:obgyn_e2sfca",
-    "measure": "obgyn_e2sfca",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+    "full_name": "acccess_scores_obgyn:obgyn_2sfca",
+    "measure": "obgyn_2sfca",
     "type": "index",
     "short_name": "OBGYN care access score",
     "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
@@ -43,11 +43,11 @@
       }
     ]
   },
-  "obgyn_access_scores:obgyns_e2sfca": {
+  "acccess_scores_obgyn:obgyn_e2sfca": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
-    "full_name": "obgyn_access_scores:obgyns_e2sfca",
-    "measure": "obgyns_e2sfca",
+    "full_name": "acccess_scores_obgyn:obgyn_e2sfca",
+    "measure": "obgyn_e2sfca",
     "type": "index",
     "short_name": "OBGYN care access score",
     "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
